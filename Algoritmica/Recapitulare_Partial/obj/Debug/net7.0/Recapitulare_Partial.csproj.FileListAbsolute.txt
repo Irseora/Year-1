@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\bin\Debug\net7.0\Recapitulare_Partial.exe
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\bin\Debug\net7.0\Recapitulare_Partial.deps.json
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\bin\Debug\net7.0\Recapitulare_Partial.runtimeconfig.json
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\bin\Debug\net7.0\Recapitulare_Partial.dll
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\bin\Debug\net7.0\Recapitulare_Partial.pdb
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.dll
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\refint\Recapitulare_Partial.dll
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.pdb
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\Recapitulare_Partial.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Algo\Recapitulare_Partial\obj\Debug\net7.0\ref\Recapitulare_Partial.dll

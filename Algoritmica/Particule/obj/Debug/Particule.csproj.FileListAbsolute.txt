@@ -1,0 +1,11 @@
+C:\Users\Vivi\Documents\Algo\Particule\bin\Debug\Particule.exe.config
+C:\Users\Vivi\Documents\Algo\Particule\bin\Debug\Particule.exe
+C:\Users\Vivi\Documents\Algo\Particule\bin\Debug\Particule.pdb
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.Form1.resources
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.Properties.Resources.resources
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.csproj.GenerateResource.cache
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.exe
+C:\Users\Vivi\Documents\Algo\Particule\obj\Debug\Particule.pdb

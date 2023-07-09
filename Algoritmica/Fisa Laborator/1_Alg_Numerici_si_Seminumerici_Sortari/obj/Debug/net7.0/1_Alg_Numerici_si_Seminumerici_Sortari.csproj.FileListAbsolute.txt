@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\bin\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.exe
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\bin\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.deps.json
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\bin\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.runtimeconfig.json
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\bin\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.dll
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\bin\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.pdb
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.dll
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\refint\1_Alg_Numerici_si_Seminumerici_Sortari.dll
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.pdb
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\1_Alg_Numerici_si_Seminumerici_Sortari.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Algo\Fisa Laborator\1_Alg_Numerici_si_Seminumerici_Sortari\obj\Debug\net7.0\ref\1_Alg_Numerici_si_Seminumerici_Sortari.dll

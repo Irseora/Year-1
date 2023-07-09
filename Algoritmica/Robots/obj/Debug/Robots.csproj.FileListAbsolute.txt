@@ -1,0 +1,11 @@
+C:\Users\Vivi\Documents\Algo\Robots\bin\Debug\Robots.exe.config
+C:\Users\Vivi\Documents\Algo\Robots\bin\Debug\Robots.exe
+C:\Users\Vivi\Documents\Algo\Robots\bin\Debug\Robots.pdb
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.Form1.resources
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.Properties.Resources.resources
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.csproj.GenerateResource.cache
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.exe
+C:\Users\Vivi\Documents\Algo\Robots\obj\Debug\Robots.pdb

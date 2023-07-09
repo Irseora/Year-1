@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "1_Alg_Numerici_si_Seminumerici_Sortari/1.0.0": {
+        "runtime": {
+          "1_Alg_Numerici_si_Seminumerici_Sortari.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "1_Alg_Numerici_si_Seminumerici_Sortari/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

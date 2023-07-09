@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Algo\Recursivitate\bin\Debug\net7.0\Recursivitate.exe
+C:\Users\Vivi\Documents\Algo\Recursivitate\bin\Debug\net7.0\Recursivitate.deps.json
+C:\Users\Vivi\Documents\Algo\Recursivitate\bin\Debug\net7.0\Recursivitate.runtimeconfig.json
+C:\Users\Vivi\Documents\Algo\Recursivitate\bin\Debug\net7.0\Recursivitate.dll
+C:\Users\Vivi\Documents\Algo\Recursivitate\bin\Debug\net7.0\Recursivitate.pdb
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.dll
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\refint\Recursivitate.dll
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.pdb
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\Recursivitate.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Algo\Recursivitate\obj\Debug\net7.0\ref\Recursivitate.dll

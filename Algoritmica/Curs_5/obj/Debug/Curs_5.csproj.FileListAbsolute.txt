@@ -1,0 +1,11 @@
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\bin\Debug\Curs_5.exe.config
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\bin\Debug\Curs_5.exe
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\bin\Debug\Curs_5.pdb
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.Form1.resources
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.Properties.Resources.resources
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.csproj.GenerateResource.cache
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.exe
+C:\Users\Vivi\Documents\Algo\Exercitii\Curs_5\obj\Debug\Curs_5.pdb

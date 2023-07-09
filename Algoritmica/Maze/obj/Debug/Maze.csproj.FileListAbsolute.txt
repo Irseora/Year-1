@@ -1,0 +1,23 @@
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.Form1.resources
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.Properties.Resources.resources
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.csproj.GenerateResource.cache
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\bin\Debug\Maze.exe.config
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\bin\Debug\Maze.exe
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\bin\Debug\Maze.pdb
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.exe
+C:\Users\Vivi\Documents\Algoritmi Fundamentali\Maze\obj\Debug\Maze.pdb
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.Form1.resources
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.FormStart.resources
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.Properties.Resources.resources
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.csproj.GenerateResource.cache
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.exe
+C:\Users\Vivi\Documents\Algo\Maze\obj\Debug\Maze.pdb
+C:\Users\Vivi\Documents\Algo\Maze\bin\Debug\Maze.exe.config
+C:\Users\Vivi\Documents\Algo\Maze\bin\Debug\Maze.exe
+C:\Users\Vivi\Documents\Algo\Maze\bin\Debug\Maze.pdb
