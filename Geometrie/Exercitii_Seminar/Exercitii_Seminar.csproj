@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{291949E6-FB4D-4B79-9FB8-B7845D6698D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Exercitii_Seminar</RootNamespace>
+    <AssemblyName>Exercitii_Seminar</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sem1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem1.Designer.cs">
+      <DependentUpon>Sem1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2.Designer.cs">
+      <DependentUpon>Sem2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem3.Designer.cs">
+      <DependentUpon>Sem3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem4.Designer.cs">
+      <DependentUpon>Sem4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem5.Designer.cs">
+      <DependentUpon>Sem5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem6.Designer.cs">
+      <DependentUpon>Sem6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem7.Designer.cs">
+      <DependentUpon>Sem7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartPage.Designer.cs">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sem1.resx">
+      <DependentUpon>Sem1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2.resx">
+      <DependentUpon>Sem2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem3.resx">
+      <DependentUpon>Sem3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem4.resx">
+      <DependentUpon>Sem4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem5.resx">
+      <DependentUpon>Sem5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem6.resx">
+      <DependentUpon>Sem6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem7.resx">
+      <DependentUpon>Sem7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartPage.resx">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
