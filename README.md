@@ -86,93 +86,108 @@
  </tr>
 </table>
 
+---
 
+## Algoritmi Fundamentali
+<table border="0">
+ <tr>
+    <td><b style="font-size:20px">Curs 2</b></td>
+    <td><b style="font-size:20px">Curs 3</b></td>
+    <td><b style="font-size:20px">Curs 5</b></td>
+    <td><b style="font-size:20px">Curs 6</b></td>
+    <td><b style="font-size:20px">Curs 12</b></td>
+    <td><b style="font-size:20px">Fisa Laborator</b></td>
+    <td><b style="font-size:20px">Game of Life</b></td>
+ </tr>
+ <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+ </tr>
+</table>
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:20px">Maze</b></td>
+    <td><b style="font-size:20px">Particule</b></td>
+    <td><b style="font-size:20px">Recap Partial</b></td>
+    <td><b style="font-size:20px">Recursivitate</b></td>
+    <td><b style="font-size:20px">Robots</b></td>
+    <td><b style="font-size:20px">Lab 12 - TAD</b></td>
+ </tr>
+ <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+ </tr>
+</table>
+
+---
+
+## Geometrie Computationala
+<table border="0">
+ <tr>
+    <td><b style="font-size:20px">Seminar</b></td>
+    <td><b style="font-size:20px">Description</b></td>
+ </tr>
+ <tr>
+    <td>
+        1.  <br>
+        2.  <br>
+        3.  <br>
+        4.  <br>
+        5.  <br>
+        6.  <br>
+        7.  <br>
+        8.  <br>
+        9.  <br>
+        10. <br>
+        11. <br>
+    </td>
+    <td>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+        ... <br>
+    </td>
+ </tr>
+</table>
 
 ---
 
 <table border="0">
  <tr>
-    <td><b style="font-size:20px">Algoritmi Fundamentali</b></td>
     <td><b style="font-size:20px">Arhitectura Sistemelor de Calcul</b></td>
-    <td><b style="font-size:20px">Fundamentele Programarii</b></td>
+    <td><b style="font-size:20px">Algoritmica Grafurilor</b></td>
+    <td><b style="font-size:20px">Programare Orientata pe Obiecte</b></td>
  </tr>
  <tr>
-    <td>Curs 2 <br>
-        Curs 3 <br>
-        Curs 5 <br>
-        Curs 6 <br>
-        Curs 12 <br>
-        Fisa Laborator  <br>
-        Game of Life <br>
-        Maze  <br>
-        Particule <br>
-        Recap Partial <br>
-        Recursivitate <br>
-        Robots <br>
-        Lab 12 - TAD
-    </td>
-    <td>Big Integer <br>
+    <td>
+        Big Integer <br>
         Conversii Baze <br>
         FSA - Automat Vanzari <br>
         Hex Viewer <br>
         Numere Mari
     </td>
-    <td>Set 1 <br>
-        Set 2 - Secvente <br>
-        Set 3 - Tablouri
+    <td>
+        Exercitii Laborator
+    </td>
+    <td>
+        Big Ball Game
     </td>
  </tr>
 </table>
-
-
-
-<table border="0">
- <tr>
-    <td><b style="font-size:20px">Geometrie Computationala</b></td>
-    <td><b style="font-size:20px">Algoritmica Grafurilor</b></td>
-    <td><b style="font-size:20px">Programare Orientata pe Obiecte</b></td>
- </tr>
- <tr>
-    <td>Exercitii Seminar</td>
-    <td>Exercitii Laborator</td>
-    <td>Big Ball Game</td>
- </tr>
-</table>
-
----
-
-## Algoritmi Fundamentali
-- Curs 2
-- Curs 3
-- Curs 5
-- Curs 6
-- Curs 12
-- Fisa Laborator
-- Game of Life
-- Maze
-- Particule
-- Recap Partial
-- Recursivitate
-- Robots
-- Lab 12 - TAD
-
-## Arhitectura Sistemelor de Calcul
-- Big Integer
-- Conversii Baze
-- FSA - Automat Vanzari
-- Hex Viewer
-- Numere Mari
-
-## Fundamentele Programarii
-- Set 1
-- Set 2 - Secvente
-- Set 3 - Tablouri
-
-## Geometrie Computationala
-- Exercitii Seminar
-
-## Algoritmica Grafurilor
-- Exercitii Laborator
-
-## Programare Orientata pe Obiecte
-- Big Ball Game
