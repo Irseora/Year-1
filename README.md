@@ -1,5 +1,95 @@
 # Year-1
 
+## Fundamentele Programarii
+<table border="0">
+ <tr>
+    <td><b style="font-size:20px">Set 1</b></td>
+    <td><b style="font-size:20px">Set 2 - Secvente</b></td>
+    <td><b style="font-size:20px">Set 3 - Tablouri</b></td>
+ </tr>
+ <tr>
+    <td style="vertical-align: top;">
+        1. x <br>
+        2. x <br>
+        3. x <br>
+        4. x <br>
+        5. x <br>
+        6. x <br>
+        7. x <br>
+        8. x <br>
+        9. x <br>
+        10. x <br>
+        11. x <br>
+        12. x <br>
+        13. x <br>
+        14. x <br>
+        15. x <br>
+        16. x <br>
+        17. x <br>
+        18. x <br>
+        19. x <br>
+        20. x <br>
+        21. x <br>
+    </td>
+    <td style="vertical-align: top;">
+        1. x <br>
+        2. x <br>
+        3. x <br>
+        4. x <br>
+        5. x <br>
+        6. x <br>
+        7. x <br>
+        8. x <br>
+        9. x <br>
+        10. x <br>
+        11. x <br>
+        12. x <br>
+        13. x <br>
+        14. x <br>
+        15. x <br>
+        16. x <br>
+        17. x <br>
+    </td>
+    <td style="vertical-align: top;">
+        1. x <br>
+        2. x <br>
+        3. x <br>
+        4. x <br>
+        5. x <br>
+        6. x <br>
+        7. x <br>
+        8. x <br>
+        9. x <br>
+        10. x <br>
+        11. x <br>
+        12. x <br>
+        13. x <br>
+        14. x <br>
+        15. x <br>
+        16. x <br>
+        17. x <br>
+        18. x <br>
+        19. x <br>
+        20. x <br>
+        21. x <br>
+        22. x <br>
+        23. x <br>
+        24. x <br>
+        25. x <br>
+        26. x <br>
+        27. x <br>
+        28. x <br>
+        29. x <br>
+        30. x <br>
+        31. x <br>
+    </td>
+ </tr>
+</table>
+
+
+
+---
+
 <table border="0">
  <tr>
     <td><b style="font-size:20px">Algoritmi Fundamentali</b></td>
