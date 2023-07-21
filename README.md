@@ -4,6 +4,7 @@
  <tr>
     <td><b style="font-size:20px">Algoritmi Fundamentali</b></td>
     <td><b style="font-size:20px">Arhitectura Sistemelor de Calcul</b></td>
+    <td><b style="font-size:20px">Fundamentele Programarii</b></td>
  </tr>
  <tr>
     <td>Curs 2 <br>
@@ -24,7 +25,12 @@
         Conversii Baze <br>
         FSA - Automat Vanzari <br>
         Hex Viewer <br>
-        Numere Mari</td>
+        Numere Mari
+    </td>
+    <td>Set 1 <br>
+        Set 2 - Secvente <br>
+        Set 3 - Tablouri
+    </td>
  </tr>
 </table>
 
