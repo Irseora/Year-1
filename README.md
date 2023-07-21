@@ -81,7 +81,7 @@
 ## Geometrie Computationala
 - Exercitii Seminar
 
-### Algoritmica Grafurilor
+## Algoritmica Grafurilor
 - Exercitii Laborator
 
 ## Programare Orientata pe Obiecte
