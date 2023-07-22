@@ -9,79 +9,79 @@
  </tr>
  <tr>
     <td style="vertical-align: top;">
-        1. x <br>
-        2. x <br>
-        3. x <br>
-        4. x <br>
-        5. x <br>
-        6. x <br>
-        7. x <br>
-        8. x <br>
-        9. x <br>
-        10. x <br>
-        11. x <br>
-        12. x <br>
-        13. x <br>
-        14. x <br>
-        15. x <br>
-        16. x <br>
-        17. x <br>
-        18. x <br>
-        19. x <br>
-        20. x <br>
-        21. x <br>
+        1.  Eq. grad 1 <br>
+        2.  Eq. grad 2 <br>
+        3.  N se divide cu K <br>
+        4.  An bisect <br>
+        5.  K-a cifra din spate <br>
+        6.  Lungimi laturi triunghi <br>
+        7.  Swap <br>
+        8.  Swap restrictionat <br>
+        9.  Divizori <br>
+        10. Primalitate <br>
+        11. Oglindit <br>
+        12. Nr. divizibile in interval <br>
+        13. Nr. ani bisecti <br>
+        14. Palindrom <br>
+        15. Sort 3 numere (if) <br>
+        16. Sort 5 numere (if) <br>
+        17. Euclid: cmmdc, cmmmc <br>
+        18. Descomp. factori primi <br>
+        19. Doar cu 2 cifre <br>
+        20. Fractie format zecimal <br>
+        21. Ghiceste numarul <br>
     </td>
     <td style="vertical-align: top;">
-        1. x <br>
-        2. x <br>
-        3. x <br>
-        4. x <br>
-        5. x <br>
-        6. x <br>
-        7. x <br>
-        8. x <br>
-        9. x <br>
-        10. x <br>
-        11. x <br>
-        12. x <br>
-        13. x <br>
-        14. x <br>
-        15. x <br>
-        16. x <br>
-        17. x <br>
+        1.  Nr. pare <br>
+        2.  Nr. neg., 0, poz. <br>
+        3.  Sum., prod. 1-N <br>
+        4.  Search <br>
+        5.  Val. = poz. <br>
+        6.  Crescator? <br>
+        7.  Max., min. <br>
+        8.  Fibonacci <br>
+        9.  Secv. monotona <br>
+        10. Nr. maxim consecutive egale <br>
+        11. Suma inverselor <br>
+        12. Nr. grupuri consecutive egale <br>
+        13. Secv. crescatoare rotita <br>
+        14. Secv. monotona rotita <br>
+        15. Secv. bitonica <br>
+        16. Secv. bitonica rotita <br>
+        17. Paranteze, niv. max. incuibare <br>
     </td>
     <td style="vertical-align: top;">
-        1. x <br>
-        2. x <br>
-        3. x <br>
-        4. x <br>
-        5. x <br>
-        6. x <br>
-        7. x <br>
-        8. x <br>
-        9. x <br>
-        10. x <br>
-        11. x <br>
-        12. x <br>
-        13. x <br>
-        14. x <br>
-        15. x <br>
-        16. x <br>
-        17. x <br>
-        18. x <br>
-        19. x <br>
-        20. x <br>
-        21. x <br>
-        22. x <br>
-        23. x <br>
-        24. x <br>
-        25. x <br>
-        26. x <br>
-        27. x <br>
-        28. x <br>
-        29. x <br>
-        30. x <br>
-        31. x <br>
+        1.  Sum. <br>
+        2.  Search <br>
+        3.  Poz. min., max. <br>
+        4.  Nr. min., max. <br>
+        5.  Invert poz. K <br>
+        6.  Del. poz. K <br>
+        7.  Reverse <br>
+        8.  Rotire <br>
+        9.  Rotire K <br>
+        10. Cautare binara <br>
+        11. Ciurul lui Eratostene <br>
+        12. Selection sort <br>
+        13. Insertion sort <br>
+        14. 0 la sfarsit <br>
+        15. Del. repeats <br>
+        16. Cmmdc <br>
+        17. Conv. b10 -> bB <br>
+        18. Polinom in X <br>
+        19. Nr. aparitii vect. P in vect. S <br>
+        20. Margele suprapuse <br>
+        21. Ordine lexicografica 2 vect. <br>
+        22. Intersec., reun., diferente <br>
+        23. 22, ord. strict crescator <br>
+        24. 23, valori binare <br>
+        25. Interclasare (Merge) <br>
+        26. Sum., dif., prod. num. mari <br>
+        27. El. pe poz. daca ar fi sortat <br>
+        28. Quicksort <br>
+        29. Mergesort <br>
+        30. Sortare bicriteriala <br>
+        31. Element majoritate <br>
     </td>
  </tr>
 </table>
