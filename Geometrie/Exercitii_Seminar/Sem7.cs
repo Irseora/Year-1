@@ -12,78 +12,135 @@ namespace Exercitii_Seminar
 {
     public partial class Sem7 : Form
     {
+        // Init
+        bool allowDraw = false;
+
+        // Pens
+        Pen pBlack = new Pen(Color.Black, 2);
+        Pen pGreen = new Pen(Color.Green, 2);
+        SolidBrush sbBlack = new SolidBrush(Color.Black);
+        SolidBrush sbWhite = new SolidBrush(Color.White);
+        Font font = new Font(FontFamily.GenericMonospace, 15);
+
+        // Graphics
+        public Graphics g;
+        public Bitmap bmp;
+
+        List<Point> puncte = new List<Point>();
+        int nrPuncte = 0;
+
         public Sem7()
         {
             InitializeComponent();
         }
 
-        struct Line
+        private void Sem7_Load(object sender, EventArgs e)
         {
-            public Point a, b;
-            // TODO: public Latura(Point p, Point q) { this.p = p; this.q = q; }
+            bmp = new Bitmap(pctBoxRezolvare.Width, pctBoxRezolvare.Height);
+            g = Graphics.FromImage(bmp);
+        }
+
+        public class Line
+        {
+            public Point A, B;
+
+            public Line(Point a, Point b)
+            {
+                A = a;
+                B = b;
+            }
+        }
+
+        public int Det(Point A, Point B, Point C)
+        {
+            int det = A.X * B.Y + B.X * C.Y + A.Y * C.X - B.Y * C.X - C.Y * A.X - B.X * A.Y;
+            if (det > 0) return 1;
+            if (det < 0) return -1;
+            return 0;
+        }
+
+        public bool Intersecteaza(Line prim, Line secund)
+        {
+            int det1 = Det(prim.A, prim.B, secund.B);
+            int det2 = Det(prim.A, prim.B, secund.A);
+            int det3 = Det(secund.A, secund.B, prim.B);
+            int det4 = Det(secund.A, secund.B, prim.A);
+
+            return (det1 * det2 < 0) && (det3 * det4 < 0);
         }
 
         private void btnEx1_Click(object sender, EventArgs e)
         {
             lblTextProb.Text = "Partiționarea unui poligon simplu cu n>3 vârfuri în triunghiuri (triangularea) folosind diagonalele.";
-            pctBoxRezolvare.Invalidate();
+
+            // Clear point list
+            nrPuncte = 0;
+            puncte.Clear();
+
+            // Clear picture box
+            g.Clear(DefaultBackColor);
+            pctBoxRezolvare.Image = bmp;
+
+            allowDraw = true;
         }
 
-        private void TriangulareDiagonale(Graphics g, int width, int height)
+        private void TriangulareDiagonale()
         {
-            // Pens
-            Pen black = new Pen(Color.Black, 2);
-            Pen red = new Pen(Color.Red, 2);
-
-            // Init
-            Random rnd = new Random();
-            int nrPuncte = rnd.Next(100);
-            Point[] puncte = new Point[nrPuncte];
-
-            // Deseneaza punctele aleatorii
-            for (int i = 0; i < nrPuncte; i++)
-            {
-                puncte[i] = new Point { X = rnd.Next(10, width - 10), Y = rnd.Next(10, height - 10) };
-                g.DrawEllipse(black, puncte[i].X, puncte[i].Y, 2, 2);
-            }
-
-            int nrDiagonale = 0;
             List<Line> diagonale = new List<Line>();
 
-            for (int i = 0; i < nrPuncte - 3; i++)
+            List<Line> inafara = new List<Line>();
+            for (int i = 0; i < nrPuncte - 1; i++)
             {
-                for (int j = i+2; j < nrPuncte-1; j++)
-                {
-                    if (i == 0 && j == nrPuncte - 1)
-                        break;
-
-                    // nu intersecteaza nicio latura neincidenta
-                    // nu intersecteaza anterioarele
-                    // e in interiorul poligonului
-                    
-
-                    Line temp = new Line();
-                    temp.a = puncte[i];
-                    temp.b = puncte[j];
-                    diagonale.Add(temp);
-
-                    if (nrDiagonale == nrPuncte - 3)
-                        return;
-                }
+                inafara.Add(new Line(puncte[i], puncte[i + 1]));
+                Line temp = new Line(puncte[i], puncte[i + 1]);
+                inafara.Add(temp);
             }
+            inafara.Add(new Line(puncte[0], puncte[nrPuncte - 1]));
+            
+            for (int i = 0; i < nrPuncte - 2; i++)
+                for (int j = i + 2; j < nrPuncte; j++)
+                {
+                    if (diagonale.Count == nrPuncte - 3) break;
+                    if (i == 0 && j == nrPuncte - 1) break;
+
+                    bool ok = true;
+                    Line l = new Line(puncte[i], puncte[j]);
+                    foreach (Line latura in inafara)
+                        if (Intersecteaza(l, latura))
+                        {
+                            ok = false;
+                            break;
+                        }
+                    if (!ok) continue;
+
+                    ok = true;
+                    foreach (Line latura in diagonale)
+                        if (Intersecteaza(l, latura))
+                        {
+                            ok = false;
+                            break;
+                        }
+                    if (!ok) continue;
+
+                    ok = true;
+                    int rez = (i == 0) ? nrPuncte - 1 : i - 1;
+                    bool inv = Det(puncte[rez], puncte[i], puncte[i + 1]) > 0;
+                    int det1 = Det(puncte[i], puncte[j], puncte[i + 1]);
+                    int det2 = Det(puncte[i], puncte[rez], puncte[j]);
+                    if (inv)
+                        ok = det1 < 0 && det2 < 0;
+                    else
+                        ok = !(det1 > 0 && det2 > 0);
+                    if (!ok) continue;
+
+                    diagonale.Add(l);
+                    g.DrawLine(pBlack, l.A, l.B);
+                }
+
+            pctBoxRezolvare.Image = bmp;
         }
 
-        private void pctBoxRezolvare_Paint(object sender, PaintEventArgs e)
-        {
-            // Init
-            Graphics g = e.Graphics;
-            Random rnd = new Random();
-            int width = pctBoxRezolvare.Width;
-            int height = pctBoxRezolvare.Height;
-
-            TriangulareDiagonale(g, width, height);
-        }
-
+        /*
         /// <summary>
         /// Determina daca 2 segmente se intersecteaza
         /// </summary>
@@ -110,11 +167,50 @@ namespace Exercitii_Seminar
                 return true;
 
             return false;
+        }*/
+
+        /// <summary>
+        /// Deseneaza poligonul
+        /// </summary>
+        private void pctBoxRezolvare_Click(object sender, EventArgs e)
+        {
+            if (allowDraw)
+            {
+                // Cast to MouseEvent
+                MouseEventArgs me = (MouseEventArgs)e;
+
+                // Get mouse location
+                Point current = me.Location;
+
+                // Add point to list
+                nrPuncte++;
+                puncte.Add(current);
+
+                // Draw point & number
+                g.FillEllipse(sbBlack, current.X, current.Y, 20, 20);
+                g.DrawString(nrPuncte.ToString(), font, sbWhite, current.X, current.Y);
+
+                // Unite points starting from point 2
+                if (nrPuncte > 1)
+                    g.DrawLine(pBlack, puncte[nrPuncte - 2], puncte[nrPuncte - 1]);
+
+                // Refresh picture box
+                pctBoxRezolvare.Image = bmp;
+            }
         }
 
-        private void Sem7_Load(object sender, EventArgs e)
+        /// <summary>
+        /// Opreste desenarea
+        /// </summary>
+        private void btnDraw_Click(object sender, EventArgs e)
         {
+            // Deseneaza ultima latura a pligonului
+            g.DrawLine(pBlack, puncte[nrPuncte - 1], puncte[0]);
+            pctBoxRezolvare.Image = bmp;
 
+            allowDraw = false;
+
+            TriangulareDiagonale();
         }
     }
 }

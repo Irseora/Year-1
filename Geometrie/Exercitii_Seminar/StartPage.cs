@@ -55,22 +55,32 @@ namespace Exercitii_Seminar
 
         private void btnSem7_Click(object sender, EventArgs e)
         {
-
+            Sem7 sem7 = new Sem7();
+            sem7.Show();
         }
 
         private void btnSem8_Click(object sender, EventArgs e)
         {
-
+            Sem8 sem8 = new Sem8();
+            sem8.Show();
         }
 
         private void btnSem9_Click(object sender, EventArgs e)
         {
-
+            Sem9 sem9 = new Sem9();
+            sem9.Show();
         }
 
         private void btnSem10_Click(object sender, EventArgs e)
         {
+            Sem10 sem10 = new Sem10();
+            sem10.Show();
+        }
 
+        private void btnSem11_Click(object sender, EventArgs e)
+        {
+            Sem11 sem11 = new Sem11();
+            sem11.Show();
         }
     }
 }
